@@ -1,0 +1,62 @@
+.feedback-form {
+padding: 24px;
+}
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.first-label {
+    margin-bottom: 8px;
+}
+.input-textarea {
+    box-sizing: border-box;
+    max-width: 360px;
+    height: 40px;
+    resize: none;
+    overflow: hidden;
+    border-color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+.input-textarea:hover {
+    border-color: #000000;
+}
+.input-textarea:active {
+    border-color: #808080;
+}
+.bttn {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+}
+.bttn:hover {
+    background-color: #6c8cff;
+}

@@ -4,3 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.section-gallery {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
