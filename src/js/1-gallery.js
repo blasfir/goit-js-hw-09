@@ -80,7 +80,7 @@ const createGallery = (array) => {
     imgEl.alt = description;
     imgEl.setAttribute('data-source', original);
     imgEl.width = 360;
-    imgEl.height = 300;
+    imgEl.height = 200;
     liEl.style.listStyleType = 'none';
     liEl.append(aEl);
     aEl.append(imgEl);

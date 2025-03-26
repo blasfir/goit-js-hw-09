@@ -15,10 +15,26 @@ padding: 24px;
 .first-label {
     margin-bottom: 8px;
 }
-.input-textarea {
+.npt {
     box-sizing: border-box;
+    padding-left: 16px;
     max-width: 360px;
     height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+    border-color: #808080;
+    border-width: 1px;
+}
+.txtr {
+    box-sizing: border-box;
+    padding-left: 16px;
+    max-width: 360px;
+    height: 80px;
     resize: none;
     overflow: hidden;
     border-color: #808080;
@@ -29,12 +45,14 @@ padding: 24px;
     color: #2e2f42;
     font-family: "Montserrat", sans-serif;
     border-radius: 4px;
-    padding: 8px 16px;
+    border-width: 1px;
 }
-.input-textarea:hover {
+.txtr:hover, 
+.npt:hover{
     border-color: #000000;
 }
-.input-textarea:active {
+.txtr:active,
+.npt:active {
     border-color: #808080;
 }
 .bttn {
